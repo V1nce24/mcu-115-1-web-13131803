@@ -1,5 +1,9 @@
 header {
-  border-bottom: solid 1px #e5e7eb;
+  .material-symbols-outlined {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}
 
   .container {
     width: 100%;
@@ -37,6 +41,18 @@ header {
           cursor: pointer;
         }
       }
+
+      button {
+        background-color: transparent;
+        padding: 0.5rem;
+        border: none;
+        cursor: pointer;
+        color: var(--text-color);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
       .site-title {
         margin: 0px;
         font-size: 1.25rem;
@@ -44,8 +60,6 @@ header {
         line-height: 1.75rem;
         color: var(--primary-color);
       }
-
-
 
     .site-title {
         margin: 0px;
@@ -59,6 +73,7 @@ header {
         display: flex;
         gap: 0.5rem;
       }
+
       .header-brand,
       .header-actions {
         display: flex;
@@ -86,4 +101,3 @@ header {
       }
     }
   }
-}

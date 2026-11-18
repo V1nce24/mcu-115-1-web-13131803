@@ -36,6 +36,10 @@ main.wrapper {
         min-height: 700px;
       }
     }
+
+    > div[id] {
+  scroll-margin-top: var(--book-header-offset);
+}
   }
 
   a {

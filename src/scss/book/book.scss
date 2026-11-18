@@ -10,6 +10,17 @@ body {
   padding: 0;
 }
 
+html {
+   --book-header-offset: 5rem;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--background-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

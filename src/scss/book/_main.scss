@@ -13,7 +13,6 @@ section {
         width: 100%;
         height: 4rem;
         display: flex;
-        justify-content: space-between;
         align-items: center;
       }
     }
@@ -38,3 +37,12 @@ main.wrapper {
       }
     }
   }
+
+  a {
+  color: var(--text-color);
+  text-decoration: inherit;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
